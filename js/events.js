@@ -1,12 +1,12 @@
 function getIt() {
-  $('img').on('load', function(){
-  
+  $('p').on('click', function(){
+    alert("Hey!");
   });
 }
 
 function frameIt() {
-  $('p').on('click', function(){
-    alert("Hey!");
+  $('img').on('load', function(){
+    this.addClass('tasty');
   });
 }
 
