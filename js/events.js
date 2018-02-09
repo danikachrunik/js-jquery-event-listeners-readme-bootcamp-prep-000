@@ -5,8 +5,8 @@ function getIt() {
 }
 
 function frameIt() {
-  $('p').on('load', function(){
-  
+  $('p').on('click', function(){
+    alert("Hey!");
   });
 }
 
