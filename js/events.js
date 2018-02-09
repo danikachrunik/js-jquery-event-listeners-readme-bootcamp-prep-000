@@ -1,5 +1,7 @@
 function getIt() {
+  $('img').on('load', function(){
   
+  });
 }
 
 $(document).ready(function(){
