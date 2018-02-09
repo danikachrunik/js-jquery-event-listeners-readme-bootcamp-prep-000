@@ -19,8 +19,8 @@ function pressIt() {
 }
 
 function submitIt() {
-  $('img').on('load', function(){
-  
+  $('form').on('submit', function(){
+    alert("Your form is going to be submitted now.");
   });
 }
 
