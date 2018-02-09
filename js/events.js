@@ -12,7 +12,9 @@ function frameIt() {
 
 function pressIt() {
   $('input').on('keydown', function(){
-  
+    if (key.which == 82) {
+      alert('g was pressed');
+    }
   });
 }
 
