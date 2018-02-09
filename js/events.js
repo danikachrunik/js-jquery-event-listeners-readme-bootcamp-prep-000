@@ -1,6 +1,6 @@
-$('h1').on("eventname", function(){
-    //action you want taken
-});
+function getIt() {
+  
+}
 
 $(document).ready(function(){
 
